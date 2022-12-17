@@ -1,5 +1,4 @@
 
-
 # APPROACH
 I researched for a little over an hour and came up with the following approach. We'll see :) 
 
@@ -35,4 +34,6 @@ I researched for a little over an hour and came up with the following approach. 
 4. validate result 
 
 
-YEEHAW 
+# UPDATES
+ 
+1. have 0x contract loaded and rust code to (hopefully) compile it. Not sure if it works because I have to update xcode tools. snack break 
