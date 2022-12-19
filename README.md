@@ -1,6 +1,4 @@
 
-# APPROACH
-I researched for a little over an hour and came up with the following approach. We'll see :) 
 
 ## Part 1: set up 
 
@@ -33,12 +31,3 @@ I researched for a little over an hour and came up with the following approach. 
 
 4. validate result 
 
-
-# UPDATES
- 
-1. have 0x contract loaded and rust code to (hopefully) compile it. Not sure if it works because I have to update xcode tools. snack break 
-2. switched to solang compiler and was still having issues, particularly with
-indirect dependencies not being able to access each other. after i finally got that resolved
-I was having type errors for memory/data store. then went on a evm rabbit hole 
-3. conclusion from 2: instead of writing new solidity file that imports 0x, better to just 
-clone the 0x repo, build it, then compile the necessary wrapper files and create rust bindings with wasm crate. will pick up in the morning. so far spent ~3 hours

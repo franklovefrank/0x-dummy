@@ -1,5 +1,5 @@
 #[test]
-fn test_transform_eth_to_filecoin() {
+fn test_transform_a_to_b() {
     use solana_sdk::{
         account::Account,
         client::Client,
