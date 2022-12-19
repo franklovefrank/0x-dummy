@@ -42,3 +42,12 @@ indirect dependencies not being able to access each other. after i finally got t
 I was having type errors for memory/data store. then went on a evm rabbit hole 
 3. conclusion from 2: instead of writing new solidity file that imports 0x, better to just 
 clone the 0x repo, build it, then compile the necessary wrapper files and create rust bindings with wasm crate. will pick up in the morning. so far spent ~3 hours
+
+## NEW DAY
+4. took about 2 minutes of googling to realize 3 was not feasible. i prefer literally anything to js but the 0x project
+environment is simply not compatible with rust. maybe it is possible but i think given the current state of
+cross-compatibility it is a bad engineering decision. hopefully there will be tools to remedy this kind of limitation
+in the near future. 
+5. I cloned 0x-starter project during lunch and added a scenario that fulfills the given requirements. the documentation 
+is good so making a working example only took a cool 10 min. however it only works right now because i'm transforming 0 eth.
+ I still need to figure out what the appropriate transform function is. 
